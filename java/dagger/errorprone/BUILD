@@ -1,17 +1,3 @@
-# Description:
-#   ErrorProne refactorings and static analysis for Dagger
-
-load("@rules_java//java:defs.bzl", "java_library")
-
-package(default_visibility = ["//:src"])
-
-java_library(
-    name = "errorprone",
-    srcs = glob(["*.java"]),
-    deps = [
-        "//java/dagger:core",
-        "//java/dagger/internal/guava:collect",
-        "@bazel_tools//tools/jdk:langtools-neverlink",
-        "@google_bazel_common//third_party/java/error_prone:check_api",
-    ],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb40ec363247c06f42b3b9758cc344632b0e01602a7c2302f64157465fbb3708
+size 464

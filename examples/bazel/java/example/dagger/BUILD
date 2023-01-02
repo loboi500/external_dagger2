@@ -1,23 +1,3 @@
-# Copyright (C) 2020 The Dagger Authors.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-# http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-java_binary(
-    name = "dagger",
-    srcs = glob(["*.java"]),
-    main_class = "dagger.coffee.CoffeeApp",
-    deps = [
-        "//:dagger",
-        "//java/example/common",
-    ],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d0b826381d78380889e3baa10691a6b5807203af2b9908bcb39eebc24c10784
+size 767

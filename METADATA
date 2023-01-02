@@ -1,17 +1,3 @@
-name: "dagger2"
-description:
-    "A fast dependency injector for Android and Java."
-
-third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://dagger.dev"
-  }
-  url {
-    type: GIT
-    value: "https://github.com/google/dagger"
-  }
-  version: "dagger-2.19.1"
-  last_upgrade_date { year: 2020 month: 11 day: 18 }
-  license_type: NOTICE
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:658b4451d24b3edeaac1138a7e70b20c3629e1bf6b32cb3646001254671e5bf0
+size 339

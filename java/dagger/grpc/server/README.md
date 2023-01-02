@@ -1,10 +1,3 @@
-# Dagger-gRPC on the Server
-
-This package contains the public types used to create gRPC server applications
-using https://dagger.dev.
-
-It is maintained by the Dagger team.
-
-It is in development, and is planned for open-source release as part of Dagger.
-
-See user documentation at https://dagger.dev/dev-guide/grpc.
+version https://git-lfs.github.com/spec/v1
+oid sha256:00076f961ff340960a7c587142df68e10e648d0c47f4930602b93f81b1f0c214
+size 315

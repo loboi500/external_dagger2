@@ -1,33 +1,3 @@
-# Copyright (C) 2019 The Dagger Authors.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-# http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# Description:
-#   Extra features for the JDK and Guava. This code is merged into both
-#   the dagger-compiler and dagger-spi artifacts that are sent to Maven
-
-load("@rules_java//java:defs.bzl", "java_library")
-
-package(default_visibility = ["//:src"])
-
-java_library(
-    name = "extension",
-    srcs = glob(["*.java"]),
-    tags = ["maven:merged"],
-    deps = [
-        "//java/dagger/internal/guava:base",
-        "//java/dagger/internal/guava:collect",
-        "//java/dagger/internal/guava:graph",
-        "@google_bazel_common//third_party/java/jsr305_annotations",
-    ],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:f37edf5c1155075206944918ef8ee958fed61966c2350492a41d1f67e2732b9c
+size 1164

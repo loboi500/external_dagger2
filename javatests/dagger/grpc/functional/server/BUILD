@@ -1,18 +1,3 @@
-# Functional tests for Dagger-gRPC
-
-load("@rules_java//java:defs.bzl", "java_proto_library")
-
-package(default_visibility = ["//:src"])
-
-# TODO(dpb): enable tests once java_grpc_library is ready in bazel:
-# https://github.com/grpc/grpc-java/issues/2756
-
-java_proto_library(
-    name = "coffee_service_java_proto",
-    deps = [":protos"],
-)
-
-proto_library(
-    name = "protos",
-    srcs = glob(["*.proto"]),
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:3273211d1649935cdf96374b3afdccf635492822d77f77a4362a5297a7db5a33
+size 408

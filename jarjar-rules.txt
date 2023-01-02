@@ -1,3 +1,3 @@
-# shade guava to avoid conflicts with guava embedded in Error Prone.
-rule com.google.common.** com.google.dagger.common.@1
-rule com.google.auto.** com.google.dagger.auto.@1
+version https://git-lfs.github.com/spec/v1
+oid sha256:6dc09d1ca91e1d07049cbf5168229689063e8ac89380e1a58d9761deab5f6f05
+size 173
